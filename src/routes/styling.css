@@ -3,3 +3,33 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+
+#topbar {
+    position: relative;
+    padding-bottom: 7.5vw;
+}
+
+img {
+    width: 17.5vw;
+}
+
+#left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#center {
+    position: absolute;
+    top: 0;
+    left: 50.5%;
+    height: 10vw;
+    width: auto;
+    transform: translateX(-50%);
+}

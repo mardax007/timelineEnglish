@@ -62,7 +62,12 @@
 ];
 </script>
 
-<Timeline position="alternate" style={"border: solid 1px #dbdbdb; padding: 50px 0; border-radius: 2%;"}>
+<div id="topbar">
+    <img id="left" src="left.png" alt="leftcorner">
+    <img id="center" src="center.png" alt="centerimage">
+    <img id="right" src="right.png" alt="rightcorner">
+</div>
+<Timeline position="alternate">
 	{#each options as option}
 		<TimelineItem>
 			<TimelineOppositeContent slot="opposite-content">
