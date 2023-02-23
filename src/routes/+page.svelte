@@ -44,10 +44,6 @@
         "time":"1215"
     },
     {
-        "title":"King John becomes King of England",
-        "time":"1216"
-    },
-    {
         "title":"Battle of Lincoln",
         "time":"1217"
     },
